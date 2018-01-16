@@ -1,0 +1,25 @@
+$navigation-bgcolor: #cac3c3;
+$navigation-hovercolor: #047426;
+$navigation-color: black;
+
+nav {
+    background-color: $navigation-bgcolor;
+    color: $navigation-color;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li:hover {
+    background-color: $navigation-hovercolor;
+}
